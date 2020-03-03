@@ -12,13 +12,11 @@ header {
   left: 0;
 }
 
-
 h1 {
   background-color: #62433f;
   color: white;
   padding: 30px;
-  margin: 40px 10px 30px;
-  border-width: 3px;
+  margin: 0px;
 }
 
 figure {

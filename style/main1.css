@@ -1,29 +1,18 @@
 body {
   background-color: darkgrey;
 }
-li {
-  color: white;
-}
+
 h1 {
   background-color: lightgrey;
   color: blue;
 }
 
-.newProd {
-  background-color: yellow;
-  color: green;
-}
-#hello {
-  color: ;
-}
-
+/* Below here are just tags I added for fun */
 h1:first-letter {
-  color:green;
+  color:lightcoral;
   font-size: 50px;
 }
 
-#btnSubmit:hover {
-  background-image: URL("../images/color-wheel.png");
-  height:100px;
-  width:100px;
+li {
+  color: white;
 }

@@ -1,5 +1,8 @@
 body {
-  background: url("../images/The Anthropomorphic Cabinet.jpg")  top / cover no-repeat fixed;
+  /* background: url("../images/The Anthropomorphic Cabinet.jpg"); */
+  /* background: url("../images/The Anthropomorphic Cabinet.jpg") no-repeat; */
+  /* background: url("../images/The Anthropomorphic Cabinet.jpg")  top / cover no-repeat; */
+  background: url("../images/Butterfly\ Sails.jpg")  top / cover no-repeat fixed;
   color: white;
 }
 
@@ -10,4 +13,14 @@ h1 {
 
 footer {
   background-color: chocolate;
+}
+
+/* Below here are just tags I added for fun */
+h1:first-letter {
+  color:lightcoral;
+  font-size: 50px;
+}
+
+li {
+  color: white;
 }
