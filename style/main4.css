@@ -8,9 +8,9 @@ body {
 header {
   background-color: #98644e;
   color: white;
-  padding: 30px;
+  padding: 10px;
   margin: 0px;
-  
+
   position: fixed;
   top: 0px;
   width: 100%;
@@ -37,8 +37,7 @@ footer {
 }
 
 .center-in-container {
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
 }
 
 .banner {
@@ -56,7 +55,7 @@ footer {
   width: 100%;
 }
 
-.navbar-primary ul li{
+.navbar-primary ul li {
   display: inline-block;
   padding: 5px 10px;
 }
@@ -68,8 +67,6 @@ footer {
 
 section {
   margin-top: 120px;
-/* ------ */
-  margin-bottom: 120px;
 }
 
 .quote {
