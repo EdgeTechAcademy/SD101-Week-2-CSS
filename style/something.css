@@ -7,16 +7,15 @@ body {
     /* background: peachpuff url("../images/CSS3_and_HTML5_logos.png") no-repeat top right 160px 100px; */
 }
 
-h1 { color: darkolivegreen; }
+h1      { color: darkolivegreen; }
 
-th { background-color: lightcoral; }
+th      { background-color: lightcoral; }
+th, td  { border: 2px dashed black; }
 
 table { 
     border-collapse: collapse; 
     box-shadow: gray 10px 10px 5px; 
 }
-
-th, td { border: 2px dashed black; }
 
 tr:nth-child(even) { background-color: lavenderblush; }
 tr:nth-child(odd)  { background-color: cornflowerblue; }
