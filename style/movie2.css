@@ -44,7 +44,7 @@ header {
 .navbar-primary ul {
     position: absolute;
     top: 80px;
-    right: 0px;
+    left: 0px;
     width: 100%;
     background-color: #30261a;
 }
@@ -96,12 +96,12 @@ header {
     position: relative;
     display: inline-block;
     vertical-align: top;
-    padding-right: 20px;
+    padding-right: 120px;
     width: 300px;
 }
 
 .movie-list-section ol>li::before {
-    content: "-"counter(li) "-";
+    content: "-" counter(li) "-";
     position: absolute;
     counter-increment: li;
     right: 20%;
@@ -131,7 +131,7 @@ header {
 }
 
 .other-lists ul {
-    list-style-type: none;
+    /* list-style-type: none; */
     padding: 0px;
 }
 

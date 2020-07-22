@@ -15,8 +15,12 @@ header {
 h1 {
   background-color: #62433f;
   color: white;
-  padding: 30px;
-  margin: 0px;
+  padding: 20px;
+  margin: 40px;
+}
+
+img { 
+  margin: 0px 40px;
 }
 
 figure {
@@ -34,6 +38,13 @@ footer {
   left: 0;
 }
 
+/*
+
+#img1 {
+  border-width:10px;
+  border-style: dashed;
+}
+
 .center {
   text-align: center;
   margin-left: auto;
@@ -44,3 +55,18 @@ footer {
   width: 80%;
   height: 10%;
 }
+
+a:visited {
+  color:green;
+} */
+
+/* 
+.round {
+  border: 5px solid #98644e;
+  border-radius: 30px;
+}
+
+.blue {
+  border: 15px dotted blue;
+  border-radius: 50px;
+} */

@@ -20,6 +20,10 @@ h1 {
   font-family: 'Adelle W01 Bold', 'Arvo', Constantia, 'Lucida Bright';
 }
 
+section {
+  margin-top: 120px;
+}
+
 figure {
   border: 5px double #62433f;
   background-color: #98644e;
@@ -34,15 +38,6 @@ footer {
   right: 0;
   bottom: 0;
   left: 0;
-}
-
-.center-in-container {
-  margin: auto;
-}
-
-.banner {
-  width: 20%;
-  height: 10%;
 }
 
 .navbar-primary ul {
@@ -65,10 +60,15 @@ footer {
   color: white;
 }
 
-section {
-  margin-top: 120px;
+.banner {
+  width: 20%;
+  height: 10%;
 }
 
 .quote {
   width: 35%;
+}
+
+.center-in-container {
+  margin: auto;
 }

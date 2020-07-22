@@ -1,5 +1,5 @@
 body{
-  background:  url("../images/rolled movie film/rolled film.jpg")top / contain repeat;
+  background:  url("images/rolled film.jpg")top / contain repeat;
   margin:0px;
   color: black;
   font-family:  "Myriad Set Pro","Helvetica Neue","Helvetica","Arial",sans-serif;
@@ -16,7 +16,7 @@ h1{
 
 
 #banner{
-  background:  URL("../images/Movie Marquee/marquee blue.png") top / contain no-repeat;
+  background:  URL("images/marquee blue.png") top / contain no-repeat;
   width: 260px;
   height: 130px;
   position: absolute;
@@ -30,7 +30,7 @@ h1{
 
 header{
   margin: 0px;
-    background: URL("../images/Movie Film Border/movie film border.jpg") top / contain repeat;
+    background: URL("images/movie film border.jpg") top / contain repeat;
     height: 100px;
     top: 0px;
     position: fixed;
@@ -72,7 +72,7 @@ header{
 }
 
 #btnSearch{
-  background: URL("../images/magnifyingGlass white.png") top / contain no-repeat;
+  background: URL("images/magnifyingGlass white.png") top / contain no-repeat;
   border-style: none;
   width:20px;
   cursor: pointer;
@@ -85,7 +85,7 @@ header{
 }
 
 .movie-list-section ol{
-  background: URL("../images/Movie Film Border/movie film border.jpg")  top / 100% 100% no-repeat;
+  background: URL("images/movie film border.jpg")  top / 100% 100% no-repeat;
   display: table;
   padding: 60px 20px 60px 40px;
   list-style-type: none;
@@ -129,7 +129,7 @@ header{
 }
 
 footer{
-  background: URL("../images/Movie Film Border/movie film border.jpg")  top / contain repeat;
+  background: URL("images/movie film border.jpg")  top / contain repeat;
   height: 30px;
   position: fixed;
   bottom: 0px;
