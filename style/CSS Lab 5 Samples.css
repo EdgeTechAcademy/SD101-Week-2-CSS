@@ -5,7 +5,7 @@ div {
 	margin-bottom: 5px;
 	margin-left: 20px;
 	position: inline;
-	transition: 1s ease;
+	transition: 2s ease;
 }
 
 #translate, #translate3d {
@@ -20,13 +20,6 @@ div {
 	background-color: darkblue;
 }
 
-#drop:hover {
-	transform: translate(0px, 100px);
-	background-color: yellow;
-	width: 1000px;
-	height: 10px;
-}
-
 #scale, #scale3d {
 	width: 100px;
 	height: 100px;
@@ -36,7 +29,9 @@ div {
 
 #skew, #skew3d {
 	background-color: purple;
-	box-shadow: -10px -10px 10px grey;
+	box-shadow: 10px -10px 0px grey,
+		inset	 5px   5px 5px aqua,
+				-20px  20px 5px black;
 }
 
 #matrix, #matrix3d {
@@ -45,6 +40,13 @@ div {
 }
 
 /* 2D Transforms */
+#drop:hover {
+	transform: translate(0px, 100px);
+	background-color: yellow;
+	width: 500px;
+	height: 40px;
+}
+
 #translate:hover {
 	transform:translate(350px, -50px);
 	transform:rotate(360deg);
