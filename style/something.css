@@ -19,3 +19,11 @@ table {
 
 tr:nth-child(even) { background-color: lavenderblush; }
 tr:nth-child(odd)  { background-color: cornflowerblue; }
+
+#bottomLeft { 
+    height:100px;
+    width:160px;
+    position: absolute; 
+    bottom: 8px; 
+    left: 16px;
+}
