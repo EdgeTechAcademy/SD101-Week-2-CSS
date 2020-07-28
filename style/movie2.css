@@ -1,5 +1,5 @@
 body {
-    background: url("../images/rolled film.jpg")top / contain repeat;
+    /* background: url("../images/rolled film.jpg")top / contain repeat; */
     margin: 0px;
     color: black;
     font-family: "Myriad Set Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
@@ -133,6 +133,10 @@ header {
 .other-lists ul {
     /* list-style-type: none; */
     padding: 0px;
+}
+
+.buffer {
+    margin-top: 10px;
 }
 
 footer {
